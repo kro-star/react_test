@@ -2,6 +2,10 @@ import { nanoid } from 'nanoid';
 import React, { useState } from 'react';
 
 function App() {
+	
+  //Даны два инпута, кнопка и абзац. Пусть в инпуты вводятся даты в формате 2025-12-31. 
+  //По нажатию на кнопку найдите разницу между датами в днях и результат выведите в абзац.
+  //Модифицируйте предыдущую задачу так, чтобы по умолчанию в инпутах стояла текущая дата.
   let nowDate = new Date();
   let datestr = String(nowDate.getFullYear()) + '-' + String(nowDate.getMonth()+1) + '-' + String(nowDate.getDate());
   
